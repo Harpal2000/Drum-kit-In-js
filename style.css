@@ -1,0 +1,64 @@
+body {
+  background: #dee2e6;
+  text-align: center;
+}
+
+.drum-btn  {
+  margin: 3rem 2rem;
+}
+
+h1{
+  font-size: 5rem;
+  /* color: #DBEDF3; */
+  color: #495057;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #adb5bd;
+  margin: 1rem 0 1rem 0;
+}
+
+.btn-text{
+  font-size: 5rem;
+  height: 20vh;
+  width: 20vh;
+  border: 10px solid #495057;
+  border-radius: 15px;
+  font-family: 'Arvo', cursive;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  cursor: pointer;
+  margin:0 1rem 1rem 0;
+}
+
+.clicked{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.a {
+  background-image: url("images/tom1.png");
+}
+
+.s {
+  background-image: url("images/tom2.png");
+}
+
+.d {
+  background-image: url("images/tom3.png");
+}
+
+.f {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
